@@ -13,4 +13,5 @@ app.controller("todoCtrl", function($scope) {
         $scope.todos.push({ title: $scope.todoTitle, done: false });
         $scope.todoTitle = "";
     }
+
 })
